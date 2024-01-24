@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .md{
+            display: grid;
+            gap: 5px;
+            grid-template-columns: 200px 200px 100px 200px 200px;
+            grid-template-rows: 160px 120px 80px 200px;
+            margin-top: 20px;
+            margin-left: 35px;
+        }
+        .m1{
+            border: 3px solid black;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+
+        
+                       
+        }
+        .k1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+            background-image: linear-gradient( #ffff4d, #ff66cc, #8080ff, #66ffff,  #aaff80);
+
+        }
+        .k2{
+           grid-column-start: 2;
+           grid-column-end: 4;
+           background-color: plum;
+
+        }
+        .k3{
+            grid-column-start: 4;
+            grid-column-end: 6;
+            background-color: yellowgreen;
+        }
+        .k4{
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: honeydew;
+        }
+       
+        .k5{
+            grid-column-start: 3;
+            grid-column-end: 5;
+            grid-row-start: 2;
+            grid-row-end: 4;
+            background-color: palevioletred;
+
+        }
+        .k6{
+            grid-row-start: 2;
+            grid-row-end: 5;
+            background-image: linear-gradient( #66ffff,  #66ff33,  #4d79ff,  #ff6666,#adad85, #c44dff );
+        }
+        .k7{
+            grid-row-start: 3;
+            grid-row-end: 5;
+            background-color: wheat;
+        }
+        .k8{
+          grid-column-start: 2;
+          grid-column-end: 4;
+          background-color: red;
+        }
+        .k9{
+            background-color: #ffff4d;
+        }
+        .mm{
+          border: 1px solid black;
+          height: 620px;
+          width: 1000px;
+          margin: 10px auto;
+        }
+        
+       
+
+    </style>
+</head>
+<body>
+    <div class="mm">
+   <div class="md">
+    <div class="m1 k1">1</div>
+    <div class="m1 k2">2</div>
+    <div class="m1 k3">3</div>
+    <div class="m1 k4">4</div>
+    <div class="m1 k5">5</div>
+    <div class="m1 k6">6</div>
+    <div class="m1 k7">7</div>
+    <div class="m1 k8">8</div>
+    <div class="m1 k9">9</div>
+  </div>
+
+  </div>
+</body>
+</html>
